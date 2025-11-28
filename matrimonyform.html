@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Matrimony Registration Form</title>
+</head>
+<body>
+    <fieldset>
+    <h1 align="center">Matrimony Registration Form</h1>
+    <form action="/submit">
+        <fieldset>
+            <legend><em>Personal Details</em></legend>
+            <label>Full Name:</label>
+            <input type="text" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" required>
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Other</label><br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" required><br><br>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Email:</label>
+            <input type="email" required><br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" required><br><br>
+
+            <label>Address:</label>
+            <textarea rows="3" cols="30"></textarea><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Family Details</legend>
+            <label>Father's Name:</label>
+            <input type="text"><br><br>
+
+            <label>Mother's Name:</label>
+            <input type="text"><br><br>
+
+            <label>Number of Siblings:</label>
+            <input type="number" min="0"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Education & Occupation</legend>
+            <label>Highest Qualification:</label>
+            <select>
+                <option>Select</option>
+                <option>High School</option>
+                <option>Bachelor's Degree</option>
+                <option>Master's Degree</option>
+                <option>PhD</option>
+                <option>Other</option>
+            </select><br><br>
+
+            <label>Occupation:</label>
+            <input type="text"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Partner Preferences</legend>
+            <label>Preferred Age Range:</label>
+            <input placeholder="Min" min="18">
+            <input placeholder="Max" min="18"><br><br>
+
+            <label for="educationpref">Preferred Education:</label>
+            <select id="educationpref" name="educationpref">
+                <option value="">Select</option>
+                <option value="High School">High School</option>
+                <option value="Bachelor">Bachelor's Degree</option>
+                <option value="Master">Master's Degree</option>
+                <option value="PhD">PhD</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <label>Other Preferences:</label>
+            <textarea rows="3" cols="30"></textarea><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Terms & Declaration</legend>
+            <input type="checkbox" required>
+            <label>I agree to the terms and conditions.</label><br><br>
+        </fieldset>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    </fieldset>
+</body>
+</html>

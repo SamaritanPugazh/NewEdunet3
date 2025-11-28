@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic Tags Demo</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML Tags</h1>
+        <nav>
+            <a href="#section1">Section 1</a>
+            <a href="#section2">Section 2</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Text Formatting Section -->
+        <section id="section1">
+            <h2>Text Formatting Tags</h2>
+            <p>This is a <strong>strong</strong> text and <em>emphasized</em> text.</p>
+            <p>This is <b>bold</b>, <i>italic</i>, <u>underlined</u>, and <mark>marked</mark> text.</p>
+            <p>This is <small>small</small>, <del>deleted</del>, <ins>inserted</ins>, and <sub>subscript</sub> H<sub>2</sub>O.</p>
+            <p>Formula: E=mc<sup>2</sup> is famous.</p>
+            <blockquote>This is a blockquote.</blockquote>
+            <code>const x = 10;</code>
+            <pre>Preformatted text 
+    keeps spacing</pre>
+        </section>
+
+        <!-- Lists and Media Section -->
+        <section id="section2">
+            <h2>Lists and Media</h2>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Unordered item 1</li>
+                <li>Unordered item 2</li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Ordered item 1</li>
+                <li>Ordered item 2</li>
+            </ol>
+
+            <h3>Definition List</h3>
+            <dl>
+                <dt>Term</dt>
+                <dd>Definition of term</dd>
+                <DT>TERM2</DT>
+                <DD>DEFINITION OF TERMS</DD>
+            </dl>
+
+            <h3>Media</h3>
+            <img src="IMAGE.png" alt="Placeholder">
+            <video width="200" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <!-- Forms Section -->
+        <section>
+            <h2>Forms</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input id="name" type="text" placeholder="Enter name">
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" cols="30">Text area</textarea>
+
+                <label for="options">Options:</label>
+                <select id="options">
+                    <option>Option 1</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Table Section -->
+        <section>
+            <h2>Table Example</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Footer 1</td>
+                        <td>Footer 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Additional Tags Section -->
+        <section>
+            <h2>Additional Tags</h2>
+            <hr>
+            <figure>
+                <figcaption>Figure caption</figcaption>
+            </figure>
+            <address>Contact: email@example.com</address>
+            <time datetime="2024-01-01">January 1, 2024</time>
+        </section>
+    </main>
+
+    <aside>
+        <p>Sidebar content</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+</body>
+</html>
