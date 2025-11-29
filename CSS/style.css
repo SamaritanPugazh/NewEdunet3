@@ -1,0 +1,31 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #DCBB03;
+    margin: 10px;
+    padding: 20px;
+    border: 5px solid #A68201;
+    
+}
+
+.container{
+    display: flex;
+}
+
+span {
+    color: rgb(232, 225, 128);
+    font-size: 66px;
+    font-weight: bold;
+}
+
+
+
+.title {
+    font-size: 48px;
+    color: #A68201;
+    text-align: center;
+    margin-bottom: 20px;
+      font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
